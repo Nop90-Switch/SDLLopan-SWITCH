@@ -1,0 +1,18 @@
+Within the game, <ESCAPE> exits, and <RETURN> reshuffles the board.
+The arrow keys work as undo/redo.
+
+F1 switches the tilesets, the data/tiles#.pcx files are used.
+F2 switched the background, the data/bg#.pcx files are used.
+In both cases, number files from 0.
+
+The game requires the SDL library to run. That is available from
+http://www.devolution.com/~slouken/projects/SDL/
+You may need to tinker with the Makefile to get it to compile...
+
+To save disk space you can delete the data/bg*.pcx files you don't want,
+then renumber them starting from 0.
+
+Dave Ashley
+dash@xdr.com
+http://www.xdr.com/dash/linux.html
+Tue Nov  2 10:43:18 PST 1999
